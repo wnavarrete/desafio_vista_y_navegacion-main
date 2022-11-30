@@ -25,12 +25,12 @@ const Main = ({ navigation }) => {
             <Text style={styles.title}>Main Screen</Text>
             <View style={styles.buttonContainer}>
               <Button
-                title="Go to Pending"
+                title="Pending"
                 onPress={() => navigation.navigate("Pendings")}
                 color={COLORS.primary}
               />
               <Button
-                title="Go to Delivered"
+                title="Delivered"
                 onPress={() => navigation.navigate("Delivered")}
                 color={COLORS.primary}
               />
